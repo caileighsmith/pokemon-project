@@ -1,0 +1,79 @@
+.pokemon-container{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#selector-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.selector{
+    margin: 20px;
+}
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+
+    background-color: white;
+    text-align: center;
+}
+.pokemon-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
+.hover-card:hover{
+    display: block;
+}
+
+
+#my-team-container{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.team-card > img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.team-card{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}

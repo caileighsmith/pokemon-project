@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Pokedex</h1>
+    
+
+    <h2>My team</h2>
+    <h3 id="party-counter">0/6</h3>
+    <div id="my-team-container">
+    </div>
+    
+    <h2>Search for pokemon</h2>
+
+    <div id="selector-container">
+        <div class="selector">Search by name
+            <input type="text" placeholder="Enter name.." id="searchName">
+            <button type="submit" onclick="searchName()">search</button>
+        </div>
+    </div>
+
+    <div id='pokemon-container'class="pokemon-container">
+
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
