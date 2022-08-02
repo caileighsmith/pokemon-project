@@ -67,7 +67,7 @@ function choose(x){
 
     
         }else{
-            alert('rip')
+            alert(x.id +' has NOT been added.')
         }
         console.log(x)
     }else{
@@ -148,7 +148,7 @@ function myTeam(x){
 
 function searchName(){
 
-    let currentSearch = document.getElementById('searchName').value
+    let currentSearch = String(document.getElementById('searchName').value).toLowerCase()
     //removing all current pokemon
     const boxes = document.querySelectorAll('.pokemon-card');
     boxes.forEach(box => {
